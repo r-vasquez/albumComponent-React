@@ -1,0 +1,25 @@
+.row {
+  display: grid;
+  grid-template-columns: 125px 225px;
+  grid-template-rows: 50px;
+  grid-template-areas: 'comment stars';
+}
+
+.comment {
+  grid-area: comment;
+  text-align: center;
+  color: rgb(102, 102, 102);
+}
+
+.stars {
+  grid-area: stars;
+  align-items: center;
+}
+
+.stars {
+  fill: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
